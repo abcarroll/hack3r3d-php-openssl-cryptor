@@ -8,6 +8,14 @@ This is a fork of https://github.com/ioncube/php-openssl-cryptor git repo. This
 is the same code, but I rearranged it and made it into a composer package. I wanted
 to use it with my other composer code, and so it made sense to make this fork.
 
+You can install this package using composer like this.
+
+composer require hack3r3d/php-openssl-cryptor
+
+The packagist for this library is located here.
+
+https://packagist.org/packages/hack3r3d/php-openssl-cryptor
+
 Simple to use class for encrypting/decrypting using the PHP Openssl library. 
 
 The Cryptor class supports arbitrary encryption and key hashing algorithms, along
