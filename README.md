@@ -1,8 +1,6 @@
-php-openssl-cryptor
-===================
+# php-openssl-cryptor
 
-Description
------------
+## Description
 
 This is a fork of https://github.com/ioncube/php-openssl-cryptor git repo. This
 is the same code, but I rearranged it and made it into a composer package. I wanted
@@ -16,6 +14,23 @@ The packagist for this library is located here.
 
 https://packagist.org/packages/hack3r3d/php-openssl-cryptor
 
+## Example
+```php
+use Crypto\Cryptor;
+
+$data = 'Good things come in small packages.';
+$key = '9901:io=[<>602vV03&Whb>9J&M~Oq';
+
+$encrypted = Cryptor::Encrypt($data, $key);
+
+echo "'$data' (" . strlen($data) . ") => '$encrypted'\n\n";
+
+$decrypted = Cryptor::Decrypt($encrypted, $key);
+
+echo "'$encrypted' => '$decrypted' (" . strlen($decrypted) . ")\n";
+```
+
+## Description from Original Project
 Simple to use class for encrypting/decrypting using the PHP Openssl library. 
 
 The Cryptor class supports arbitrary encryption and key hashing algorithms, along
