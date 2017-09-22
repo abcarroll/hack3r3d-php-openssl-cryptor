@@ -10,7 +10,7 @@ to use it with my other composer code, and so it made sense to make this fork.
 
 You can install this package using composer like this.
 
-composer require hack3r3d/php-openssl-cryptor
+`composer require hack3r3d/php-openssl-cryptor`
 
 The packagist for this library is located here.
 
