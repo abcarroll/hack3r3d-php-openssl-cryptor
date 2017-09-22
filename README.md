@@ -3,6 +3,11 @@ php-openssl-cryptor
 
 Description
 -----------
+
+This is a fork of https://github.com/ioncube/php-openssl-cryptor git repo. This
+is the same code, but I rearranged it and made it into a composer package. I wanted
+to use it with my other composer code, and so it made sense to make this fork.
+
 Simple to use class for encrypting/decrypting using the PHP Openssl library. 
 
 The Cryptor class supports arbitrary encryption and key hashing algorithms, along
