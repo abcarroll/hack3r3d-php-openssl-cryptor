@@ -9,7 +9,7 @@
 	"description" : "Useful PHP library that makes encrypting data easier",
 	"autoload" : {
 		"psr-4" : {
-			"Crypto\\" : "src/"
+			"Crypto\\" : "src"
 		}
 	},
 	"require" : {
