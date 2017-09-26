@@ -1,4 +1,5 @@
 <?php
+namespace Crypto;
 /**
  * Simple example of using the openssl encrypt/decrypt functions that
  * are inadequately documented in the PHP manual.
