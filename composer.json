@@ -1,12 +1,12 @@
 {
-	"name" : "hack3r3d/php-openssl-cryptor",
+	"name" : "abcarroll/hack3r3d-php-openssl-cryptor",
 	"license" : "MIT",
 	"type" : "library",
 	"keywords" : [
 		"php",
 		"encryption"
 	],
-	"description" : "Useful PHP library that makes encrypting data easier",
+	"description" : "Useful PHP library that makes encrypting data easier; Mirror of the hack3r3d/php-openssl-cryptor",
 	"autoload" : {
 		"psr-4" : {
 			"Crypto\\" : "src"
@@ -18,10 +18,10 @@
 	"repositories" : [{
 			"type" : "package",
 			"package" : {
-				"name" : "hack3r3d/php-openssl-cryptor",
+				"name" : "abcarroll/hack3r3d-php-openssl-cryptor",
 				"version" : "master",
 				"source" : {
-					"url" : "git://github.com/hack3r3d/php-openssl-cryptor",
+					"url" : "git://github.com/abcarroll/hack3r3d-php-openssl-cryptor",
 					"type" : "git",
 					"reference" : "master"
 				}
